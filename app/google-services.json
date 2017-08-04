@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "411591158973",
+    "firebase_url": "https://jamaica-observer-98183.firebaseio.com",
+    "project_id": "jamaica-observer-98183",
+    "storage_bucket": "jamaica-observer-98183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411591158973:android:05549a664973572f",
+        "android_client_info": {
+          "package_name": "com.sieae.jamaicaobserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411591158973-8j4lsqa5ggfh7f7f12g5cda516p6s0ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sieae.jamaicaobserver",
+            "certificate_hash": "8e18fb93935a3718cb7f18df7bdffcb5325eca0e"
+          }
+        },
+        {
+          "client_id": "411591158973-lnrjgm15aeivptqdsqgevuedl9huneoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraWlVU6V2Af7dRTHvXzvp60isQmAP4yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411591158973-lnrjgm15aeivptqdsqgevuedl9huneoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

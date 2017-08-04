@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twitter">#34B2E7</color>
+    <color name="actionBarColor">#2b2b2b</color>
+    
+    <!-- Android -->
+    <color name="myPrimaryColor">#2b2b2b</color>
+    <color name="myPrimaryDarkColor">#2b2b2b</color>
+    <color name="myAccentColor">#2b2b2b</color>
+    <color name="myDrawerBackground">#2b2b2b</color>
+    <!--<color name="myWindowBackground">#DEDEDE</color>-->
+    <color name="myWindowBackground">#fff</color>
+    <color name="myTextPrimaryColor">#ffffff</color>
+    <color name="myNavigationColor">#ffffff</color>
+
+    <color name="selected_gray">#e91c3b</color>
+    <color name="btnGray">#ffdbdbdb</color>
+    
+    <!-- Regular colors -->
+    <color name="gray">#A9A9A9</color>
+    <color name="dim_gray">#696969</color>
+    <color name="light_gray">#BDBDBD</color>
+    <color name="dark_gray">#292929</color>
+
+    <!-- shadow colors -->
+    <color name="text_shadow">#7F000000</color>
+
+    <!-- Shadow color for the first pixels around CardView. -->
+    <!--<color name="cardview_shadow_start_color">#97000000</color>-->
+    <color name="cardview_shadow_start_color">#000</color>
+    <!-- Shadow color for the furthest pixels around CardView. -->
+    <color name="cardview_shadow_end_color">#03000000</color>
+
+    <color name="index_page_background">#fff2f2f2</color>
+    <color name="stack_widget_item_headline_color">#ff313131</color>
+
+    <color name="semi_transparent_black">#C8000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="overlay_bottom_bar_separators">#333333</color>
+    <color name="overlay_bottom_bar_background">#1E1E1E</color>
+
+    <color name="black_trans80">#33000000</color>
+
+    <!--color used in feed bg and text-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightgray">#f1f1f1</color>
+
+</resources>

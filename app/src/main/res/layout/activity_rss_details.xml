@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rss_container"
+	xmlns:adtech="http://schemas.android.com/apk/res-auto"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center_horizontal|bottom">
+
+		<android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+			android:layout_above="@+id/detailAdView">
+
+
+
+        </android.support.v4.view.ViewPager>
+
+		<!--<com.adtech.mobilesdk.publisher.view.AdtechBannerView
+            android:id="@+id/ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+
+            android:layout_gravity="center_horizontal|bottom"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true">
+        </com.adtech.mobilesdk.publisher.view.AdtechBannerView>-->
+		<com.google.android.gms.ads.AdView
+			android:id="@+id/detailAdView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			ads:adSize="BANNER"
+			ads:adUnitId="@string/admob_banner_id"
+			/>
+
+	</RelativeLayout>
+
+</FrameLayout>

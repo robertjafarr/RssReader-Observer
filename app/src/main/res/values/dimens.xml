@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <!-- Toolbar -->
+    <!-- <dimen name="navigation_drawer_width">200dp</dimen>-->
+    <dimen name="toolbar_elevation">4dp</dimen>
+    
+    <!-- preferenceFragment -->
+    <dimen name="preference_fragment_padding_bottom">0dp</dimen>
+    <dimen name="preference_fragment_padding_side">16dp</dimen>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+    
+    <!-- Defaults -->
+    <dimen name="activity_horizontal_margin">6dp</dimen>
+    <dimen name="activity_horizontal_detail_margin">1dp</dimen>
+    <dimen name="activity_detail_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">6dp</dimen>
+    <dimen name="image_height_wordpress">250dp</dimen>
+    <dimen name="image_height_youtube">200dp</dimen>
+
+    <!--Widget-->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="view_card_background_border_size">2.0dip</dimen>
+    <dimen name="view_card_background_padding_bottom">1.0dip</dimen>
+
+    <!--vuforia-->
+    <dimen name="menu_title">22sp</dimen>
+    <dimen name="menu_title_padding">4dp</dimen>
+    <dimen name="menu_activities_list_padding_left">4dp</dimen>
+
+    <dimen name="menu_entries_text">10sp</dimen>
+    <dimen name="menu_entries_title">16sp</dimen>
+    <dimen name="menu_entries_sides_padding">10dp</dimen>
+
+    <dimen name="menu_entries_top_down_radio_padding">7dp</dimen>
+
+</resources>

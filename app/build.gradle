@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        applicationId "com.sieae.jamaicaobserver"
+        minSdkVersion 21
+        targetSdkVersion 23
+//        useLibrary  'org.apache.http.legacy'
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+
+dependencies {
+    //    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    //    compile files('libs/android-support-v7-recyclerview.jar')
+    //    compile files('libs/jsoup-1.7.3.jar')
+    //    compile files('libs/universal-image-loader-1.9.2.jar')
+    //    compile 'com.google.android.gms:play-services:6.5.87'
+    //    compile files('libs/zenit-android-sdk.jar')
+    //    compile 'com.squareup.picasso:picasso:2.4.0'
+    //    compile 'org.parceler:parceler-api:0.2.15'
+    //    provided 'org.parceler:parceler:0.2.15'
+    //    //    compile 'com.android.support:cardview-v7:24.0.0-alpha1'
+    //    compile 'com.android.support:cardview-v7:25.3.0'
+    //    compile 'com.android.support:palette-v7:25.3.0'
+    //    compile 'com.android.support:appcompat-v7:25.3.0'
+    //    compile 'com.android.support:support-v4:25.3.0'
+    //    compile files('libs/Vuforia.jar')
+    //    compile 'com.android.support:design:25.3.0'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile files('libs/android-support-v7-recyclerview.jar')
+    compile files('libs/jsoup-1.7.3.jar')
+    compile files('libs/universal-image-loader-1.9.2.jar')
+    compile files('libs/zenit-android-sdk.jar')
+
+    //    compile 'com.android.support:cardview-v7:24.0.0-alpha1'
+    compile('cn.trinea.android.view.autoscrollviewpager:android-auto-scroll-view-pager:1.1.2') {
+        exclude module: 'support-v4'
+    }
+    compile files('libs/org.apache.http.legacy.jar')
+    compile files('libs/Vuforia.jar')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.google.android.gms:play-services:10.2.6'
+    compile 'com.android.support:support-v4:23.1.1'
+
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'org.parceler:parceler-api:0.2.15'
+    compile 'com.clevertap.android:clevertap-android-sdk:3.1.2'
+    compile 'com.google.android.gms:play-services-gcm:10.2.6'
+    compile 'com.android.support:design:22.2.1'
+    compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.android.support:palette-v7:22.2.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+
+    provided 'org.parceler:parceler:0.2.15'
+}
+
+
+apply plugin: 'com.google.gms.google-services'
