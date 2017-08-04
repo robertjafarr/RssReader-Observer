@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/jsoup-1.7.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.7.3_f55ea567a208be878c2a5d5c5d81b1d5886abdf4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/0f699859b0f86afb217f22ea24e94837d19eaabf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2bb232789a26951b59c9b105d31c6d5019c9851d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/42f65a7b35195276a716b007a67297feaf41ebee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9aa417cd6d4373c413f6e60865133bcfdb7096b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_234a27396751127296a45d93159fd41c0d149c0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/2706ac1f9fcf2298de7fe582c4e1a5ed2b94f7fc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58b950905b83c7212db65d4eab6d56d5f8118377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/43233fa31755e7b524c05f473c6b96d1e4569dff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b34276d1fea450411cedd49d3146b04838f9dd6e">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2538ddd8c471e4bf88d553a31b13b0be27043636/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/cc37e4737bc43ef3008bce8b0ab579efd77e41b9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84a9797d6c3dd732d00f0433edc17778573cea17">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c300fde26cdf453994362501ae3cd93ee6c868f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/c616fcb69ee5bb07110463bf74e9d7d16bef5105/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32ff20707166ee6ced684447d9b148b3d60fb56f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6876b2e2883b3ae580ff4afcaea1a5e99bd62dc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b775d7b643397da3ab57e62ae8abb74a9cc9a83">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e23438d84820e04b318580f02ecd905cd664888c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/50d007e785d89fafc9071550e7133101ba336154/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4cf429853645363e8ce843696db12e6e790f691a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/5426d43d96cd66ff5c88b95130ba9b0ea1c5a816/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3dbaff65d26258306561d545f88d6712ac41dd46">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1b6d742175ada7fd7dbcde48dbb7b564dc8d226/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/db00c976b8a218a0aacc2a809a643fba00054a24/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba4defc8cb4ed5b90b8ef71602722cdeebe507cd">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e32c20e5d4f47cee5de8edeb23adfdbcebc50ab2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ea2ad31348b8c10e89c22cef80641c608addac5e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94bfdd80de2f2e16d3c071a62c8b767eca222895/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/bee929cdf7fd7bd2bd28ab3645c28304288eb077/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81978250f6de6ffdf2ea4632e7955613103e984c">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6590e816da054d82639d054b88ee3918e40176af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/d7341713da6775f59da9686dda63bc1adaf1cbfb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2212319c7623640b4625f9d419ad6c0c1b81074a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_40b5614e78939f8a872578fa0887ceb3e0becf6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/e41237af5b3e574c46de3cb2918dfb3ec7096191/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_abef238c720ec5487ef90a9ee1285b0550c0800f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/e541578465c3579d61aff9de34059536fa3ae696/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d068a922134f5f9b9f98bfc609145e09af03c2a4">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22a3feb09bb10bce83c08a9ceeb4e6420d38be65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ae9082d1a37f1f57b836429811d328c626059ebf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_70a189486eddc7d84423dab74ba2d5223272dfca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/a8f59b5cee41573f92d48a9adce0a84e735b752e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab2c6111c9e733c965725976ca2a2e57670000f9">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fad088a53cc41a967ad9bcb67a8b03591b4a7f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/f2b23d036e0b30aead1e41174d15d0d31864e8dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="740c4226d6bec1adaaf5fee4b9178674b695f75a">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d21baa25ce400a66b3a143b6058421983eedd8e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6efa352f7bd7608870795ccc947f9f3263afc229/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3356d1c74ae17148b03cc33957e392863ce90ca2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/8fd72b11d0eeffe9647cba236da15c7adc478356/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="60a8cdd1ad9b8d22a5d44bc8e479257ced2bf075">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aea0e2e1d3179466aacbdf275f47a1aee9cd11f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_195185576be3c529c9cf1a04bd9a7101e277f6b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/5d3087b4f6a7540e9569290bd53b7a50ba461240/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf5f630e354827a90ffe90ce2a330495108f0595">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cfb58e4d9713d09259422941f4fced4978644f15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/3ed69fc43d2ac854354000ecaa96652eab918b35/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c7e0d83e333a25f969bce43db78150c63e7aa0c">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8fc1b90930c8cdeb841bf079b52a3abfdba9b527/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="16bc7316bdcb27eb2f9c0c349f8e377ad68a4094">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v7-recyclerview_4567f64218de68b58f23638310018871b939b252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/3b8b1fe8516d42cde7541866f09c2f197500c794/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ff5114aff3bfb387577ba92a11408dcf0441c24">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7b566f5065ad35facf4fe9c287f14d0fa731cf67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ccea16f3f3b60061014d58f396bae6dff7707908/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="215363c803a119c16058c8bc0ccd0a4ee62e7157">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_065f7aa5246f217215a7d98b842a175d36a8f94b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.2_020cbfbe5425cf01f01c3dafd3332b9a39692df5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/3ccef919eae8f164a3c226c00a6cc293f9b8b184/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e578c6ae790fc755b3cf273adbbbde6ceb98d27b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ff7a7d604e0c4e7db6f6b92c295f2bbf0aafab66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee8e60f302059fc2549a38fa8ca258a9d08e7b9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/eda852bf87f0aeb7d326793d31778957eeab0ee1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c1f80f62ccad560edcd6609fc75f385cf7cb45a">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6a102945812fd45b16c81ba17a6c9001df34049/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/bc5c9f2785c3b2b78858e3959e7f135be15cf7fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_11f713f40e20def0c801bce0a7c1c6cc48f62f4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6d73050787fc211f4126b3508fcbcb0fd573b4b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d54a722583c1b99735f62d395806fa38bf5669ae">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9e5a183c67fad3b85962351e203447ed2f8ad82d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/e685a34b71d0814e411f0e24ce0641b00706af2a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1968b9614bc6851e99db64e356cf60063503e5d">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d8d85719bb16e31c04e68cf6e0674c4653b30d31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_8fc34d1eecccba4f54cf9c0dc74f92224d7feb15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/zenit-android-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57f8ddfc5a9a0db716186b3fa9c81f19e0e5576b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/zenit-android-sdk_d3479d4afb88cbda825abc9410f11047fb72f133/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/918bb50a3aba94d221271755f563b8e5af99489a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d7184a651c5975b49928ce7c76175d491ee7a5e">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_717a0df11c21c2adaa59118bad4e9c23e6d5328b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/401402c4ff46d007425f056fca1d674677f45a2f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29bd9a40adebb952fbe97515aac9db5dfbd90d93">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c29c8dfcb2f4b037f3711043b12af43064f8d93d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/79202f68bc93a56bd25810bf45417ad3b4cedc2f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7b3eaf755284fb08a6d616a55fbb07dc3917d5e7">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d50a7ef227db41292941e115a7c1d5b42874fde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="017030d11901291abf8f83a812984276b643ea0f">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.http.legacy_6a98d6f11eca9c3cdbf23532b750e05cedf97f60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/9ac54d146c7952b9b64b9645a7001a1b1081585b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fdbd9e17479dc16002522b7b5330cea514bf7ea7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/82fe06a599806d65543d3f93fb2707695cc28ddb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e1f0c360308ff7c7bab828d46ef59a8cfd5fc3aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/67dd20150ffa01fdcaf35af4254bef72117bf34e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4e5223997fa6032b326167ee4586ae0b3498647">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_11191c9489ede4dbd037827802124c73f57932c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6dbe3ead9091972ff0112deb8068e0faa55f8c28/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1172091167cff5873cbcccad4c0e08ec9e3240de">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0700075a6f2e3c46fa30ad5d74cd1c5991c3a8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/9c3fece6eac97f03543bab9516a0552e5d6853d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cad5ae5774f39b7017a3ae3d103e7b78506397b0">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a099fbf233093d8a62426b249ddf97a31f60da37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/2af26ebc74e72108a278d0eca3718a4232004d0a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="577aa74e06e6b4b407ff23ac75043685ae26dcbb">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a36189e02399f8752c00809de15cad1faf3afe9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/a0380dff9689182751e66dd7d2d88ceac045ba85/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a00607e7cf55392edd324bc8fa3827ded7e9859b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0f96c1e9de18b583df65d85d08ebfb7db70f42d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/3cb30087ca712ce6cddc71fbeed258ef5f390ef3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_128af8992cf9ec19491ef1c0aeb77428f9c99da3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/d03effe04a8c556e104aa8b03bedd0f89ca324ed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58bebdae4bb8243d017e23efaacb903093a72759/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/e90d63b78c54d2898996330c394fe9a4a31e799a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea6fccbfe2b9ca7701a8766710179cd41ae1974">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60b7b1d416c4d33c4057308e276a741afe42cece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/d05c65460cdf153574351953f9fa54357301a708/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba6d53176502b2672a5d7d25a0000d1a6e701c">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_154ff351a22ba348030b8596621e67decab607dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/65c969bc722948b7336b4b63cdb97bf2f3afeff2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9024225796c3f11342ef6a4a99439f2f988bafb0">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e970f165b21197e0ece64ce072423db748ca0912/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/4d07d8f6cf117a4c3f7d607007608ee18e4bf29b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="553e58050e91d4295a2f1d1f80ea63b41ee5bc4b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_899777a511f23b8ddcfb15064712668bc3ad055c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ed79d1e92f5698aa5fa917e3b8dc9744df2d967c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd057bc43f1c1e2f13566f5fe800d077b08b61b9">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c0d48d1bb6534cf22eb548f2b4f7c174d26de7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/ddb0b77d06a4e0978bfc8edff0394844d92c5fe7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f2f16fde0c662116f735951b4e830afba373cc6">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3c2c079ba384c4c8cb07f84c6741334c7c8ab95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/1f8bf3038d0590605b4770f406ec68822ab047cb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aec5337725e7a3171f7f40a50d9837745693d429">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4980b4f95f7f63797d46c634e02c237699ed7a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/0b449f5706b66a9091f485d78e92b634ca802e40/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7979972576b6dbb1688052e42e5199abb54f81ba">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34b0faa43980da8fc7524d5ab295e71a74fb55de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6295891c5ebd498f80d191ac8d72e6b93763228a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79100391e3b32d7323a04b7b8a9c8ad0adbae583">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a80f145ee75d0b774a9f3cddd6d2f97eda6d7a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/da15675df9eea1730b9110eaf4f4526430893f19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6924cbba8248329a8c58ead6a380efe7eee76e">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_050433c5de12e05ab98d954783e613ed6a944fce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/libs/Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68bf3aa0a0e9c14d708c2c6cdbd475aee6ca9dfe">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/Vuforia_e5e545263fcc555ef4f38f6d284354d306bd80b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/30e12f574cfd3ce0f0331cf1ceb4d7786ef8f6af/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b41f7538ea1af0aad76cb3253b87b13744788c2">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40fcf01c559bbde805827d33a3f938515e41a653/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/1bc3a8ec7dd3afd372b14ad3ebbf6eee96346586/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de24d8023e8da79f30bee46b298f606e5e758432">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9cdf692e37671ce884233ffbac5ed63ee1b64fac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/0895805d5535c55bff770cb1dc7a0e8d1283c5b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64f7ab5f0e9c2f4ff9ece2444729646c2a17f089/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/6874f8099ca7647f628504a71cdc835a0fd1c08e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93caa39dee6285c0788f5b0ef5294ae01f2ea2ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/13647c5153acbddc1733937181c88e3135767e8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_635e6f3fcd8894783d591c16e49726863185ddb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertfarr/.android/build-cache/9130b41bbe101be972bff24dcddc7702fc1a5bf2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="079c035b2a1820bf455e0ae7fd484dec575e2182">
+        <dex dex="/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5fa090a2d3219007b79aa31ae67272e64a8ac07f/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/fab_out.xml",
+        "source": "/Users/robertfarr/.android/build-cache/7c0b3bcafde25ffeb6d6c247d5a28b5a12ca6f2f/output/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/snackbar_in.xml",
+        "source": "/Users/robertfarr/.android/build-cache/7c0b3bcafde25ffeb6d6c247d5a28b5a12ca6f2f/output/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/fab_in.xml",
+        "source": "/Users/robertfarr/.android/build-cache/7c0b3bcafde25ffeb6d6c247d5a28b5a12ca6f2f/output/res/anim/fab_in.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/robertfarr/.android/build-cache/549438fd667a2b5433b168ce3d38c07fcd2872b2/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/anim/snackbar_out.xml",
+        "source": "/Users/robertfarr/.android/build-cache/7c0b3bcafde25ffeb6d6c247d5a28b5a12ca6f2f/output/res/anim/snackbar_out.xml"
+    }
+]

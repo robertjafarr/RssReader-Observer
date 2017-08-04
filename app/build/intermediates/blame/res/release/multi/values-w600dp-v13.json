@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/values-w600dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 64,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 57,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/values-w600dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 57,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 54,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/values-w600dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endColumn": 54,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 52,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/values-w600dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 52,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 63,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/values-w600dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 63,
+                        "endOffset": 214
+                    }
+                }
+            }
+        ]
+    }
+]

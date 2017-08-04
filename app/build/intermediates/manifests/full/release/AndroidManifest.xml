@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sieae.jamaicaobserver"
+    android:versionCode="30"
+    android:versionName="1.30" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Required for RSS Service -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Required for buffering & maps -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Required for maps -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Required for visualizer -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- if using CleverTap SDK v3.0.0+ -->
+    <permission
+        android:name="com.sieae.jamaicaobserver.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sieae.jamaicaobserver.permission.C2D_MESSAGE" />
+
+    <!-- Required OpenGLES 2.x -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Camera is always required -->
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <!-- Only required for location based applications -->
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+
+    <!-- Only required by tracking types such as SLAM, GPSCompass etc.. -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+
+    <application
+        android:name="com.clevertap.android.sdk.Application"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sieae.jamaicaobserver.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.yt.player.YouTubePlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.rss.ui.RssDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName="com.sieae.jamaicaobserver.MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.yt.ui.VideoDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.twi.ui.TweetDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.wordpress.ui.WordpressDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.tumblr.ui.TumblrPagerActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.web.WebviewActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.sieae.jamaicaobserver.fav.FavRed"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <!--
+        <activity
+            android:name="com.sieae.jamaicaobserver.metaio.MetaioActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"/>
+        <activity
+            android:name="com.sieae.jamaicaobserver.metaio.Template"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"/>
+        -->
+        <activity
+            android:name="com.sieae.jamaicaobserver.cartoons.ScaleImageViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <service
+            android:name="com.sieae.jamaicaobserver.rss.RssService"
+            android:enabled="true"
+            android:permission="android.permission.INTERNET" />
+        <service
+            android:name="com.sieae.jamaicaobserver.media.MediaService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="com.sieae.jamaicaobserver.rss.ServiceStarter" />
+        <receiver
+            android:name="com.sieae.jamaicaobserver.rss.BootReceiver"
+            android:enabled="false"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_android_key" />
+
+        <!-- Widget Config -->
+        <activity android:name="com.sieae.jamaicaobserver.widgets.JamaicaAppWidgetConfigure" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.sieae.jamaicaobserver.widgets.RemoteFetchService" />
+
+        <!-- Widget Receiver -->
+        <receiver android:name="com.sieae.jamaicaobserver.widgets.WidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.sieae.jamaicaobserver.DATA_FETCHED" />
+                <action android:name="com.sieae.jamaicaobserver.ACTION_TOAST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider" />
+        </receiver>
+
+        <!-- Widget service -->
+        <service
+            android:name="com.sieae.jamaicaobserver.widgets.WidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- For AR VR -->
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.ui.ActivityList.AboutScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.app.ARVR.ARVR"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/SampleAppsTheme" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.app.UserDefinedTargets.UserDefinedTargets"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/SampleAppsTheme" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.ui.ActivityList.UserDefineTargetAboutScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.app.ImageTargets.ImageTargets"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/SampleAppsTheme" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.ui.ActivityList.ImageTargetsAboutScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.app.VideoPlayback.VideoPlayback"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/SampleAppsTheme" >
+        </activity>
+
+<!--             This is the activity that holds the full screen media player. -->
+        <activity
+            android:name="com.sieae.jamaicaobserver.Vuforia.app.VideoPlayback.FullscreenPlayback"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- End AR VR -->
+
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="W46-8W6-494Z" />
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="60b-640" />
+
+        <receiver
+            android:name="com.clevertap.android.sdk.InstallReferrerBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.clevertap.android.sdk.FcmTokenListenerService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.clevertap.android.sdk.FcmMessageListenerService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="CLEVERTAP_NOTIFICATION_ICON"
+            android:value="ic_stat_red_star" /> <!-- name of your file in the drawable directory without the file extension. -->
+
+        <activity
+            android:name="com.clevertap.android.sdk.InAppNotificationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="CLEVERTAP_INAPP_EXCLUDE"
+            android:value="SplashActivity1, SplashActivity2" />
+
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.sieae.jamaicaobserver" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.sieae.jamaicaobserver" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.sieae.jamaicaobserver.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/webview_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/webview_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/tweet_detail_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/tweet_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/favorite_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/favorite_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/rss_detail_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/rss_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/wordpress_detail_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/wordpress_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/rss_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/rss_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/youtube_detail_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/youtube_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/refresh_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/refresh_menu.xml"
+    },
+    {
+        "merged": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/build/intermediates/res/merged/release/menu/maps_menu.xml",
+        "source": "/Users/robertfarr/Documents/SIEAE/JAMAICA-OBSERVER/RssReader-master 30-Mar-17 2-41AM/RssReader-master/app/src/main/res/menu/maps_menu.xml"
+    }
+]

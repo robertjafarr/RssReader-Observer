@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">411591158973-lnrjgm15aeivptqdsqgevuedl9huneoq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jamaica-observer-98183.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">411591158973</string>
+    <string name="google_api_key" translatable="false">AIzaSyDraWlVU6V2Af7dRTHvXzvp60isQmAP4yQ</string>
+    <string name="google_app_id" translatable="false">1:411591158973:android:05549a664973572f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDraWlVU6V2Af7dRTHvXzvp60isQmAP4yQ</string>
+    <string name="google_storage_bucket" translatable="false">jamaica-observer-98183.appspot.com</string>
+</resources>

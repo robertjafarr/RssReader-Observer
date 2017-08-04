@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false" android:focusableInTouchMode="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8E0000"
+        android:focusable="false" android:focusableInTouchMode="false" >
+        <TextView
+            android:id="@+id/news_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:focusable="false" android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <include layout="@layout/fragment_rss_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+             android:foreground="@drawable/gradient"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" android:focusableInTouchMode="false"
+        android:background="#8E0000"
+        android:id="@+id/card_view1"
+
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="0dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="false" android:focusableInTouchMode="false">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#8E0000"
+                android:focusable="false" android:focusableInTouchMode="false"/>
+
+            <TextView
+                android:id="@+id/subheading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" android:focusableInTouchMode="false"
+        android:background="#fff"
+        android:id="@+id/card_view2"
+
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="0dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="false" android:focusableInTouchMode="false">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#8E0000"
+                android:focusable="false" android:focusableInTouchMode="false"/>
+
+            <TextView
+                android:id="@+id/subheading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8E0000"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" android:focusableInTouchMode="false"
+        android:background="#fff"
+        android:id="@+id/card_view3"
+
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="0dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="false" android:focusableInTouchMode="false">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#8E0000"
+                android:focusable="false" android:focusableInTouchMode="false"/>
+
+            <TextView
+                android:id="@+id/subheading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:focusable="false" android:focusableInTouchMode="false">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:focusable="false" android:focusableInTouchMode="false"
+            android:background="#fff"
+            android:id="@+id/card_view4"
+
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="0dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="false" android:focusableInTouchMode="false">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#8E0000"
+                    android:focusable="false" android:focusableInTouchMode="false"/>
+
+                <TextView
+                    android:id="@+id/subheading4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#8E0000"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:lines="3"
+                    android:padding="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <com.sieae.jamaicaobserver.util.ResizableImageView
+                    android:id="@+id/img_thumb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:focusable="false" android:focusableInTouchMode="false"
+            android:background="#fff"
+            android:id="@+id/card_view5"
+
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="0dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="false" android:focusableInTouchMode="false">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#8E0000"
+                    android:focusable="false" android:focusableInTouchMode="false"/>
+
+                <TextView
+                    android:id="@+id/subheading5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#8E0000"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:lines="3"
+                    android:padding="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <com.sieae.jamaicaobserver.util.ResizableImageView
+                    android:id="@+id/img_thumb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <com.sieae.jamaicaobserver.util.ResizableImageView
+        android:id="@+id/listthumb"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="Rss video thumbnail"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:focusable="false" android:focusableInTouchMode="false"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/allrowAdView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id"
+        />
+
+</LinearLayout>

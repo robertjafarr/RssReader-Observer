@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto" >
+	
+	<item android:id="@+id/share"
+		app:showAsAction="never"
+    	  android:title="@string/share"
+		android:orderInCategory="0"
+	      android:icon="@drawable/ic_action_social_share_white"/>
+
+	<item android:id="@+id/menu_favorite"
+		app:showAsAction="never"
+		android:title="@string/favorite"
+		android:orderInCategory="1"
+		android:icon="@drawable/ic_action_action_favorite_outline"/>
+
+	<item
+		android:id="@+id/night_mode"
+		android:checkable="true"
+		app:showAsAction="never"
+		android:orderInCategory="2"
+		android:title="@string/action_night_mode"/>
+
+
+</menu>
